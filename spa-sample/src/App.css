@@ -1,0 +1,19 @@
+#container {
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgc-yellow {
+  background-color: yellow;
+}
+
+table {
+  border: 2px solid rgb(140 140 140);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Sample",
+  "version": "0.0.1",
+  "description": "This is a simple browser extension example.",
+  "permissions": [
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:5173/"],
+      "js": ["injection.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
